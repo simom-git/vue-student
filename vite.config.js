@@ -5,9 +5,9 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base:[
-    '/'
-  ],
+  base:
+    // 改專案名稱
+    '/vue-simom/',
   plugins: [
     vue(),
   ],
