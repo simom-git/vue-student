@@ -11,6 +11,7 @@ import HelloWorld from './components/HelloWorld.vue'
       <HelloWorld msg="You did it!" />
       <h1 class="text-3xl font-bold underline text-red-500">
         Hello world!
+        <div>123</div>
       </h1>
       <nav>
         <RouterLink to="/">Home</RouterLink>
